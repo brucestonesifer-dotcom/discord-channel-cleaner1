@@ -15,7 +15,7 @@ from apscheduler.triggers.cron import CronTrigger
 # =========================
 # CONFIG
 # =========================
-TOKEN = "os.getenv("DISCORD_TOKEN")"
+TOKEN = os.getenv("DISCORD_TOKEN")
 TIMEZONE = "America/Chicago"
 DATA_FILE = "scheduled_deletions.json"
 
